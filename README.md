@@ -1,30 +1,57 @@
+genetic-password-cracker
+│
+├── assets
+│   └── gui.png
+│
+├── src
+│   ├── genetic_algorithm.py
+│   ├── population.py
+│   ├── fitness.py
+│   └── gui.py
+│
+├── experiments
+│   └── configs.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername
+ملف ردمس 
+
+تمام يا Tareq 👌
+هذا ملف README.md كامل وجاهز تقدر تنسخه كما هو وتضعه في GitHub.
+
+سأعطيك النسخة النظيفة الصحيحة للـ Markdown 👇
+
 # Genetic Password Cracker (GA)
 
-A Python project that demonstrates how a **Genetic Algorithm (GA)** can be used to simulate password cracking.  
-The system evolves candidate solutions across generations until the target password is discovered.
+A Python project that demonstrates how a **Genetic Algorithm (GA)** can be used to simulate password cracking.
 
-This project also provides a **GUI interface** to run multiple experiments and compare algorithm configurations.
+The system evolves candidate solutions across generations until the **target password** is discovered.
+
+The project includes a **Graphical User Interface (GUI)** that allows running experiments with different genetic algorithm configurations and visualizing convergence performance.
 
 ---
 
 ## Screenshot
 
-![GUI](gui.png)
+![GUI](assets/gui.png)
 
 ---
 
 ## Features
 
-- Genetic Algorithm implementation
-- Password evolution simulation
-- GUI for running experiments
+- Genetic Algorithm implementation from scratch
+- Binary password evolution simulation
+- Interactive GUI interface
 - Convergence visualization
-- Multiple configuration testing:
-  - Default
-  - Large Population
-  - High Mutation
-  - Small Tournament Selection
+- Multiple experiment configurations
 - Performance comparison between GA parameters
+- Real-time execution log
 
 ---
 
@@ -32,12 +59,13 @@ This project also provides a **GUI interface** to run multiple experiments and c
 
 The algorithm follows these steps:
 
-1. **Initialize population** with random chromosomes
-2. **Evaluate fitness** by comparing with target password
-3. **Selection** using tournament selection
-4. **Crossover** to produce offspring
-5. **Mutation** to introduce randomness
-6. **Repeat** until the password is discovered
+1. Initialize a **random population** of candidate passwords
+2. Evaluate **fitness** by comparing with the target password
+3. Select parents using **Tournament Selection**
+4. Apply **Crossover** to produce offspring
+5. Apply **Mutation** to introduce diversity
+6. Generate the next population
+7. Repeat until the **target password is found**
 
 ---
 
@@ -46,9 +74,11 @@ The algorithm follows these steps:
 | Configuration | Population | Mutation Rate | Tournament Size |
 |---------------|------------|--------------|----------------|
 | Default | 100 | 0.01 | 5 |
-| Large Pop | 300 | 0.01 | 5 |
+| Large Population | 300 | 0.01 | 5 |
 | High Mutation | 100 | 0.05 | 5 |
-| Small Tour | 100 | 0.01 | 3 |
+| Small Tournament | 100 | 0.01 | 3 |
+
+These configurations help analyze how GA parameters affect **convergence speed**.
 
 ---
 
@@ -56,7 +86,7 @@ The algorithm follows these steps:
 
 - Python
 - Genetic Algorithms
-- GUI Framework (Tkinter / PyQt depending on implementation)
+- Tkinter (GUI)
 - Matplotlib (for convergence visualization)
 
 ---
@@ -65,6 +95,9 @@ The algorithm follows these steps:
 
 
 genetic-password-cracker
+│
+├── README.md
+├── main.py
 │
 ├── assets
 │ └── gui.png
@@ -78,37 +111,40 @@ genetic-password-cracker
 ├── experiments
 │ └── configs.py
 │
-├── main.py
-└── README.md
+└── requirements.txt
 
 
 ---
 
-## How to Run
+## Installation
 
-1. Clone the repository
+Clone the repository:
 
 
 git clone https://github.com/yourusername/genetic-password-cracker.git
 
 
-2. Navigate to the project
+Move to the project folder:
 
 
 cd genetic-password-cracker
 
 
-3. Install dependencies
+Install dependencies:
 
 
 pip install -r requirements.txt
 
 
-4. Run the application
+---
+
+## Run the Project
 
 
 python main.py
 
+
+This will launch the **GUI interface** where you can run experiments and visualize results.
 
 ---
 
@@ -116,27 +152,16 @@ python main.py
 
 This project is intended for **educational and research purposes only** to demonstrate:
 
-- Evolutionary algorithms
+- Evolutionary Algorithms
 - Optimization techniques
 - Genetic algorithm convergence
 
-It does **not perform real password hacking**.
+It **does not perform real password hacking**.
 
 ---
 
 ## Author
 
-Tareq Ladadweh  
-Computer Science Student — Birzeit University
-5️⃣ شكل المشروع النهائي على GitHub
-
-سيظهر هكذا:
-
-genetic-password-cracker
-│
-├── README.md
-├── main.py
-├── assets
-│   └── gui.png
-├── src
-│   └── ...
+**Ayman Jamal**  
+Computer Science Student  
+Birzeit University
