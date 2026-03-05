@@ -1,32 +1,3 @@
-# Project Structure
-genetic-password-cracker
-│
-├── assets
-│   └── gui.png
-│
-├── src
-│   ├── genetic_algorithm.py
-│   ├── population.py
-│   ├── fitness.py
-│   └── gui.py
-│
-├── experiments
-│   └── configs.py
-│
-├── main.py
-├── requirements.txt
-└── README.md
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername
-ملف ردمس 
-
-تمام يا Tareq 👌
-هذا ملف README.md كامل وجاهز تقدر تنسخه كما هو وتضعه في GitHub.
-
-سأعطيك النسخة النظيفة الصحيحة للـ Markdown 👇
 
 # Genetic Password Cracker (GA)
 
