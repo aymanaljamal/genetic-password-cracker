@@ -62,3 +62,81 @@ The algorithm follows these steps:
 ---
 
 ## Project Structure
+
+
+genetic-password-cracker
+│
+├── assets
+│ └── gui.png
+│
+├── src
+│ ├── genetic_algorithm.py
+│ ├── population.py
+│ ├── fitness.py
+│ └── gui.py
+│
+├── experiments
+│ └── configs.py
+│
+├── main.py
+└── README.md
+
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+
+git clone https://github.com/yourusername/genetic-password-cracker.git
+
+
+2. Navigate to the project
+
+
+cd genetic-password-cracker
+
+
+3. Install dependencies
+
+
+pip install -r requirements.txt
+
+
+4. Run the application
+
+
+python main.py
+
+
+---
+
+## Educational Purpose
+
+This project is intended for **educational and research purposes only** to demonstrate:
+
+- Evolutionary algorithms
+- Optimization techniques
+- Genetic algorithm convergence
+
+It does **not perform real password hacking**.
+
+---
+
+## Author
+
+Tareq Ladadweh  
+Computer Science Student — Birzeit University
+5️⃣ شكل المشروع النهائي على GitHub
+
+سيظهر هكذا:
+
+genetic-password-cracker
+│
+├── README.md
+├── main.py
+├── assets
+│   └── gui.png
+├── src
+│   └── ...
