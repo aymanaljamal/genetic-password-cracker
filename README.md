@@ -1,3 +1,4 @@
+# Project Structure
 genetic-password-cracker
 │
 ├── assets
@@ -39,7 +40,7 @@ The project includes a **Graphical User Interface (GUI)** that allows running ex
 
 ## Screenshot
 
-![GUI](assets/gui.png)
+![GUI](gui.png)
 
 ---
 
